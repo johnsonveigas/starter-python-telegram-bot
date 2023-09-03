@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from fastapi import FastAPI, Header, HTTPException, Depends
 from telegram import Update, Bot
 from pydantic import BaseModel
-
+import pyrogram
 class TelegramUpdate(BaseModel):
     update_id: int
     message: dict
