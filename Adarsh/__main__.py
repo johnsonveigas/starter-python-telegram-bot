@@ -84,7 +84,7 @@ async def start_services():
 
 if __name__ == '__main__':
     try:
-        await start_services()
-    except Exception as e:
-        print(f"An error occurred: {str(e)}")
+        await start_services()  # Change this line
+    except KeyboardInterrupt:
+        logging.info('----------------------- Service Stopped -----------------------')
 
