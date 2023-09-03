@@ -15,7 +15,7 @@ from Adarsh.server.exceptions import FIleNotFound, InvalidHash
 from ..utils.time_format import get_readable_time
 from ..utils.custom_dl import ByteStreamer
 from ..utils.render_template import render_page
-from vars import Var
+from Adarsh.vars import Var
 import sys
 
 
