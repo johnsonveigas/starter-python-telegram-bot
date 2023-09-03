@@ -3,7 +3,7 @@ from typing import Any, Optional
 from pyrogram.types import Message
 from pyrogram.file_id import FileId
 from pyrogram.raw.types.messages import Messages
-from server.exceptions import FIleNotFound
+from Adarsh.server.exceptions import FIleNotFound
 import sys
 
 sys.path.insert(0, '/home/user/Filestreambot-pro/Adarsh')
