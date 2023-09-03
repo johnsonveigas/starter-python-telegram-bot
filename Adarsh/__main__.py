@@ -82,9 +82,11 @@ async def start_services():
     print('---------------------------------------------------------------------------------------------------------')
     await idle()
 
-if __name__ == '__main__':
+async def main():
     try:
-        await start_services()  # Change this line
+        await start_services()
     except KeyboardInterrupt:
         logging.info('----------------------- Service Stopped -----------------------')
 
+if __name__ == '__main__':
+    asyncio.run(main())
