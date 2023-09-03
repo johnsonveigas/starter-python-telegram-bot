@@ -10,7 +10,7 @@ import mimetypes
 from aiohttp import web
 from aiohttp.http_exceptions import BadStatusLine
 from ..bot import multi_clients, work_loads, StreamBot
-from server.exceptions import FIleNotFound, InvalidHash
+from Adarsh.server.exceptions import FIleNotFound, InvalidHash
 
 from ..utils.time_format import get_readable_time
 from ..utils.custom_dl import ByteStreamer
