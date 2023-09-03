@@ -2,7 +2,7 @@ import asyncio
 import logging
 import aiohttp
 import traceback
-from vars import Var
+from Adarsh.vars import Var
 import sys
 
 sys.path.insert(0, '/home/user/Filestreambot-pro/Adarsh')
