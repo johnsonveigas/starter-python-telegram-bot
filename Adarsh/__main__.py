@@ -85,5 +85,6 @@ async def start_services():
 if __name__ == '__main__':
     try:
         loop.run_until_complete(start_services())
-    except KeyboardInterrupt:
-        logging.info('----------------------- Service Stopped -----------------------')
+    except Exception as e:
+        print(f"An error occurred: {str(e)}")
+
