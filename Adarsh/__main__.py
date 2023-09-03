@@ -8,12 +8,12 @@ import importlib
 from pathlib import Path
 from pyrogram import idle
 from .bot import StreamBot
-from vars import Var
+from .vars import Var
 from aiohttp import web
-#from .server import web_server
-import server
-from utils.keepalive import ping_server
-from bot.clients import initialize_clients
+from .server import web_server
+#import server
+from .utils.keepalive import ping_server
+from .bot.clients import initialize_clients
 
 logging.basicConfig(
     level=logging.INFO,
