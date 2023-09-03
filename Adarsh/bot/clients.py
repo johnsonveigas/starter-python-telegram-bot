@@ -2,9 +2,9 @@
 
 import asyncio
 import logging
-from vars import Var
+from ..vars import Var
 from pyrogram import Client
-from utils.config_parser import TokenParser
+from Adarsh.utils.config_parser import TokenParser
 from . import multi_clients, work_loads, StreamBot
 import sys
 
